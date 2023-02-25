@@ -21,6 +21,6 @@ public class CalcDesc{
         valorDesc = valor - (valor * desconto/100);
         System.out.println("O valor do desconto foi: R$"+ (valor * desconto/100));
         System.out.print("O valor do Produto com desconto é: R$" + valorDesc);
-
+        entrada.close();
     }
 }

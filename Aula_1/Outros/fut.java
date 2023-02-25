@@ -1,5 +1,3 @@
-package Outros;
-
 /*Usando a classe Scanner para entrada de dados, 
 faça uma classe que receba dois valores inteiro. 
 O primeiro valor corresponde à quantidade de pontos do líder do campeonato brasileiro de futebol. 
@@ -25,6 +23,8 @@ class fut{
             vit = (lider - lanterna)/3;
 
             System.out.println("Faltam " + vit + " vitorias.");
+
+            teclado.close();
         
     }
 }
