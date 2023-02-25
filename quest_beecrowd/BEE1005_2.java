@@ -14,7 +14,7 @@ não esqueça de imprimir o fim de linha após o resultado, caso contrário,
 você receberá "Presentation Error". */
 
 
-
+package quest_beecrowd;
 import java.util.Scanner;
 
 public class BEE1005_2 {

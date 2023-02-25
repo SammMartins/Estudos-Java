@@ -40,5 +40,7 @@ public class BEE1012{
         System.out.printf("RETANGULO: %.3f\n", areaRetangulo);
         
         input.close();
+        //Fechar a conexão de entrada de dados é uma boa prática de programação, 
+        //pois ajuda a liberar recursos e evitar possíveis erros ou comportamentos inesperados do programa.
     }
 }

@@ -34,5 +34,9 @@ public class BEE1005 {
 
         media = (((nota1*3.5)+(nota2*7.5))/11);
         System.out.println(df.format(media));
+
+        entrada.close(); 
+        //Fechar a conexão de entrada de dados é uma boa prática de programação, 
+        //pois ajuda a liberar recursos e evitar possíveis erros ou comportamentos inesperados do programa.
     }   
 }
