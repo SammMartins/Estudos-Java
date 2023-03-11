@@ -1,4 +1,4 @@
-package AULA_2;
+package Aula_2;
 import javax.swing.JOptionPane;
 // O `.` (ponto) define hierarquia de pastas em java
 
