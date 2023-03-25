@@ -22,6 +22,8 @@ class Main {
     p1.setTamanho(tamanho);
 
     System.out.println("Tamanho Asa: " + p1.getTamanhoAsa());
+
+    entrada.close();
   }
 
 }
