@@ -1,0 +1,5 @@
+Desafio:
+
+1 - Escolha um objeto ao seu redor, modele-o e implemente sua classe.
+2 - Identifique quais são suas especializações e implemente subclasses através da herança.
+3 - Implemente uma classe para usar os atributos e métodos da sub e super classe.
