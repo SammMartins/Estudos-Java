@@ -1,0 +1,27 @@
+Aqui está um desafio para você: (Gerado pelo Chat GPT)
+
+Crie uma classe Pessoa com os seguintes atributos:
+
+nome (String)
+idade (int)
+email (String)
+Crie uma classe Funcionario que estende a classe Pessoa e tenha os seguintes atributos adicionais:
+
+cargo (String)
+salario (double)
+Crie uma classe Departamento com os seguintes atributos:
+
+nome (String)
+gerente (Funcionario)
+Crie uma classe Empresa com os seguintes atributos:
+
+nome (String)
+endereco (String)
+departamentos (array de Departamento)
+Crie um método na classe Empresa chamado contratarFuncionario que recebe um objeto Funcionario e o adiciona a um departamento específico da empresa (por exemplo, escolhido aleatoriamente).
+
+Crie um método na classe Empresa chamado calcularDespesas que calcula a soma dos salários de todos os funcionários da empresa.
+
+Crie um programa principal que crie uma empresa, alguns departamentos e funcionários, contrate os funcionários, calcule as despesas da empresa e exiba o resultado na tela.
+
+Boa sorte!
