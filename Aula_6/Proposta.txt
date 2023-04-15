@@ -1,0 +1,9 @@
+                                        Desafio                                                    
+1 - Escolha um objeto ao seu redor em que seja possível identificar especializações destes e
+    modele-o em uma classe.
+2 - Identifique quais são suas especializações e implemente subclasses através da herança.
+3 - Implemente uma classe para usar os atributos e métodos da sub e super classe.
+4 - Implemente uma interface em que seja definido um método com a assinatura mostrarTudo( ) que 
+    deverá retornar os valores de todos os atributos de uma só vez como String.
+5 - Para as classes implementadas nos exercícios 2 e 3, faça com que estas utilizem o Interface 
+    criada por vocês no exercício 4.
