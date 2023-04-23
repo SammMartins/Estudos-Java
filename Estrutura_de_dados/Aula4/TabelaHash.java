@@ -9,8 +9,8 @@ public class TabelaHash {
 
         // Adiciona alguns pares de chave-valor à tabela hash
         tabelaPrecoFrutas.put("mangostao", 5.50);
-        tabelaPrecoFrutas.put("uva", 3.00);
-        tabelaPrecoFrutas.put("laranja", 2.00);
+        tabelaPrecoFrutas.put("uva", 4.00);
+        tabelaPrecoFrutas.put("laranja", 2.50);
 
         // Recupera o preço da uva da tabela hash e imprime o preço da uva
         System.out.println("O preço da maçã é: R$" + tabelaPrecoFrutas.get("uva"));
