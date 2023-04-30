@@ -9,7 +9,5 @@ public class recursaoFibonacci {
         }else{
             return calcularFibonacci(x-1) + calcularFibonacci(x-2); //Método que chama o método
         }
-            
     }
-
 }
