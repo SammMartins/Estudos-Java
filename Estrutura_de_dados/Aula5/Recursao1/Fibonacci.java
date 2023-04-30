@@ -13,13 +13,13 @@ public class Fibonacci {
         if (o < i) {
             o++;
             calc(i); // Realiza a recursão enquanto a posição da sequencia não for alcançada
-        } else
-            return N;
+        }
         return N;
     }
 }
 /*
- * Adicionando classe Fibonacci que calcula a sequência de Fibonacci recursivamente.
+ * Adicionando classe Fibonacci que calcula a sequência de Fibonacci
+ * recursivamente.
  * 
  * A classe Fibonacci possui um método calc que recebe um inteiro i como
  * parâmetro e retorna o i-ésimo número da sequência de Fibonacci. O cálculo é
