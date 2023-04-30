@@ -10,10 +10,11 @@ public class JCadastro {
     private Font fonte = new Font("SansSerif", Font.BOLD, 20);
     private JTextField jtfNome = new JTextField();
     private JTextField jtfCpf = new JTextField();
+    JButton bSalvar = new JButton("Salvar");
 
     public JCadastro() {
         jCadastroPF.setTitle("Cadastro Cliente Pessoa Física");
-        jCadastroPF.setSize(500, 200);
+        jCadastroPF.setSize(500, 220);
         jCadastroPF.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         jCadastroPF.setLocationRelativeTo(null);
         jCadastroPF.setVisible(true);
@@ -42,6 +43,10 @@ public class JCadastro {
         jtfCpf.setBounds(10, 90, 430, 20);
 
         jCadastroPF.add(jtfCpf);
+
+        bSalvar.setBounds(200, 130, 100, 30);
+        jCadastroPF.add(bSalvar);
+        
 
         jCadastroPF.setVisible(true);
     }
