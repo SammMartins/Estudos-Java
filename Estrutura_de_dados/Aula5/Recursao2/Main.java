@@ -1,5 +1,4 @@
 package Estrutura_de_dados.Aula5.Recursao2;
-
 import java.util.Scanner;
 
 public class Main {
