@@ -35,11 +35,11 @@ public class ArvoreBinaria {
            Definimos que o nó 2 é filho esquerdo da raiz, o nó 3 é filho direito da
            raiz, o nó 4 é filho esquerdo do nó 2, o nó 5 é filho direito do nó 2, o nó 6 é filho
            esquerdo do nó 3 e o nó 7 é filho direito do nó 3. */
-        raiz.esquerda = no2; // Nó 2 é filho esquerdo da raiz
-        raiz.direita = no3; // Nó 3 é filho direito da raiz
-        no2.esquerda = no4; // Nó 4 é filho esquerdo do nó 2
-        no2.direita = no5; // Nó 5 é filho direito do nó 2
-        no3.esquerda = no6; // Nó 6 é filho esquerdo do nó 3
+        raiz.esquerda = no2; // Nó 2 é filho esquerdo da raiz                      Raiz(4)
+        raiz.direita = no3; // Nó 3 é filho direito da raiz                      /        \
+        no2.esquerda = no4; // Nó 4 é filho esquerdo do nó 2                  No2(2)      No3(6)
+        no2.direita = no5; // Nó 5 é filho direito do nó 2                   /    |       |     \
+        no3.esquerda = no6; // Nó 6 é filho esquerdo do nó 3             No4(1)  No5(3) No6(5)  No7(7)                   
         no3.direita = no7; // Nó 7 é filho direito do nó 3
 
         /* Após montar a estrutura da árvore, chamamos o método percorrerEmOrdem
