@@ -1,5 +1,6 @@
 A Torre de Hanói é um quebra-cabeça ou problema matemático que consiste em mover um conjunto de 
-discos de tamanhos diferentes de uma haste de origem para uma haste de destino, usando uma haste auxiliar, seguindo algumas regras específicas.
+ discos de tamanhos diferentes de uma haste de origem para uma haste de destino, usando uma haste 
+ auxiliar, seguindo algumas regras específicas.
 
 O quebra-cabeça é composto por três hastes verticais e uma série de discos de diâmetros diferentes,
  empilhados em ordem crescente de tamanho na haste de origem. O objetivo é transferir todos os 
@@ -7,14 +8,14 @@ O quebra-cabeça é composto por três hastes verticais e uma série de discos d
  mantida e um disco maior nunca fique em cima de um disco menor.
 
 As regras para mover os discos são as seguintes:
-1- Apenas um disco pode ser movido por vez.
-2- Um disco só pode ser movido se estiver no topo de uma pilha em uma das hastes.
-3- Um disco pode ser colocado em cima de um disco maior ou em cima de uma haste vazia.
+ 1- Apenas um disco pode ser movido por vez.
+ 2- Um disco só pode ser movido se estiver no topo de uma pilha em uma das hastes.
+ 3- Um disco pode ser colocado em cima de um disco maior ou em cima de uma haste vazia.
 
 O problema da Torre de Hanói é um exemplo clássico de recursão, onde a solução é construída 
-dividindo o problema em subproblemas menores e resolvendo-os de forma recursiva. A solução ótima 
-para o quebra-cabeça da Torre de Hanói envolve mover todos os discos da haste de origem para a 
-haste de destino, usando a haste auxiliar, em um número mínimo de movimentos.
+ dividindo o problema em subproblemas menores e resolvendo-os de forma recursiva. A solução ótima 
+ para o quebra-cabeça da Torre de Hanói envolve mover todos os discos da haste de origem para a 
+ haste de destino, usando a haste auxiliar, em um número mínimo de movimentos.
 
 A Torre de Hanói é frequentemente usada como um exercício de lógica e recursão em ciência da 
-computação, e também possui aplicações em algoritmos de ordenação e estruturas de dados.
+ computação, e também possui aplicações em algoritmos de ordenação e estruturas de dados.
